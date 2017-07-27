@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('div').mouseenter(function(){
+			$('p,div').animate({top: '5px'});
+		});
+		$('div').mouseleave(function(){
+			$('p,div').animate({top: '0px'});
+		});
+	});
+</script>
+<style type="text/css">
+	p{
+		position:relative;
+	}
+	div{
+		background-color: green;
+		height:50px;
+		width:50px;
+		margin-top:-18px;
+		position: relative;
+	}
+</style>
+</head>
+<body>
+	<div>
+		<p>Home</p>
+	</div>
+</body>
+</html>

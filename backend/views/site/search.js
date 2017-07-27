@@ -1,0 +1,61 @@
+$('input[type="text"]').focusin(function(){
+	$(this).css('background-color','yellow');
+});
+$('input[type="text"]').blur(function(){
+	$(this).css('background-color','white');
+});
+
+$('#button1').click(function(){
+    $(this).css('background-color','#D4EDF6');
+	    $('#button2').css('background-color','white');
+});
+$('#button2').click(function(){
+    $(this).css('background-color','#D4EDF6');
+	    $('#button1').css('background-color','white');
+});
+$('#button7').click(function(){
+    $(this).css('background-color','D4EDF6');
+	    $('#button8').css('background-color','white');
+});
+$('#button8').click(function(){
+    $(this).css('background-color','D4EDF6');
+	    $('#button7').css('background-color','white');
+});
+
+$('#button9').click(function(){
+    $(this).css('background-color','D4EDF6');
+	    $('#button10').css('background-color','white');
+});
+$('#button10').click(function(){
+    $(this).css('background-color','D4EDF6');
+	    $('#button9').css('background-color','white');
+});
+
+$('#button7').click(function(){
+    $(this).css('background-color','D4EDF6');
+	    $('#button8').css('background-color','white');
+});
+$('#button3').click(function(){
+    $(this).css('background-color','D4EDF6');
+	    $('#button4').css('background-color','white');
+		$('#button5').css('background-color','white');
+		$('#button6').css('background-color','white');
+});
+$('#button4').click(function(){
+    $(this).css('background-color','D4EDF6');
+	    $('#button3').css('background-color','white');
+		$('#button5').css('background-color','white');
+		$('#button6').css('background-color','white');
+});
+$('#button5').click(function(){
+    $(this).css('background-color','D4EDF6');
+	    $('#button4').css('background-color','white');
+		$('#button3').css('background-color','white');
+		$('#button6').css('background-color','white');
+});
+$('#button6').click(function(){
+    $(this).css('background-color','D4EDF6');
+	    $('#button4').css('background-color','white');
+		$('#button5').css('background-color','white');
+		$('#button3').css('background-color','white');
+});
